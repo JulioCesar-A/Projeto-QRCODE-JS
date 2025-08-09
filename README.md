@@ -36,7 +36,7 @@ O desafio proposto pela DIO, que consiste em desenvolver um gerador de QR-Codes 
 
 ```bash
 git clone https://github.com/JulioCesar-A/Projeto-QRCODE-JS.git
-cd 07-PROJETO-QRCODE
+cd Projeto-QRCODE-JS
 npm install
 ```
 
