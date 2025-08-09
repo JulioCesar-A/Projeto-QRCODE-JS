@@ -10,30 +10,42 @@ O desafio proposto pela DIO, que consiste em desenvolver um gerador de QR-Codes 
 
 ```plaintext
 📂 src/ 
-    ├── 📂 prompts/                     
-    |   ├── prompt-main.js
-    |   └── prompt-qrcode.js            
-    |
-    ├── 📂 services/
-    |   ├── 📂 password/
-    |   |   ├── create.js
-    |   |   └── handle.js
-    |   |
-    |   └── 📂 qr-code/                     
-    |       ├── create.js 
-    |       └── handle.js 
-    ├── index.js
-    ├── .env                        
-    ├── .gitignore
-    ├── README.md
-    ├── package-lock.json
-    └── package.json
+|    ├── 📂 prompts/                     
+|    |   ├── prompt-main.js
+|    |   └── prompt-qrcode.js            
+|    |
+|    ├── 📂 services/
+|    |   ├── 📂 password/
+|    |   |   ├── create.js
+|    |   |   └── handle.js
+|    |   |
+|    |   └── 📂 qr-code/                     
+|    |       ├── create.js 
+|    |       └── handle.js 
+|    └── index.js
+├── .env                        
+├── .gitignore
+├── README.md
+├── package-lock.json
+└── package.json
 ```
 
 ---
 
-## Comparativo
+## Como instalar
 
-Link para o projeto original: [Link](https://github.com/digitalinnovationone/formacao-nodejs/blob/main/06-shopee-cart/)
+```bash
+git clone https://github.com/JulioCesar-A/Projeto-QRCODE-JS.git
+cd 07-PROJETO-QRCODE
+npm install
+```
+
+### **Execução**
+Execute o projeto usando o seguinte comando:
+
+```bash
+npm run dev
+```
+
 
 ---
